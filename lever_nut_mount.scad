@@ -4,7 +4,7 @@ WAGO 221 mount
 Creates a single row or double row set of 221 blocks
 with mounting tabs/ears at either end.
 
-Created - 2017/01/01 by Joo Chung
+Initially created - 2017/01/01 by Joo Chung
 Further developed - 2025-11-06 by Cameron K. Brooks 
 */
 
