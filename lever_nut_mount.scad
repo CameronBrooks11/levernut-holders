@@ -30,7 +30,7 @@ tab_height = 4;
 // Set width and length of the tab. (tab is basically a square)
 tab_width = 10;
 
-function end_customizer() = "WAGO 221 mount";
+module end_customizer(){} 
 
 // Internal Parameters and Functions
 
@@ -164,9 +164,9 @@ module lever_nut_mount(blocks) {
 
     // left and right tabs
     if (tabs) {
-      translate([tab_width / 2, tab_width/2, -block_depth - tab_height / 2])
+      translate([tab_width / 2, tab_width / 2, -block_depth - tab_height / 2])
         tab(tab_width, tab_radius, tab_height);
-      translate([mountwidth + 2 + tab_width + tab_width / 2, tab_width/2, -block_depth - tab_height / 2])
+      translate([mountwidth + 2 + tab_width + tab_width / 2, tab_width / 2, -block_depth - tab_height / 2])
         mirror([1, 0, 0])
           tab(tab_width, tab_radius, tab_height);
     }
